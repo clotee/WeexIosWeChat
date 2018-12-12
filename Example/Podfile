@@ -1,0 +1,15 @@
+use_frameworks!
+
+platform :ios, '8.0'
+
+target 'WeexIosWeChat_Example' do
+  pod 'WeexSDK', :git => 'https://github.com/bmfe/WeexiOSSDK.git', :tag => '0.18'
+  pod 'WechatOpenSDK', '1.8.3'
+  pod 'WeexIosWeChat', :path => '../'
+
+  target 'WeexIosWeChat_Tests' do
+    inherit! :search_paths
+
+    pod 'Kiwi'
+  end
+end

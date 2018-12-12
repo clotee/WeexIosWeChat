@@ -1,0 +1,22 @@
+{
+  "name": "WeexIosWeChat",
+  "version": "0.1.0",
+  "summary": "A short description of WeexIosWeChat.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/clotee@foxmail.com/WeexIosWeChat",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "clotee@foxmail.com": "clotee@foxmail.com"
+  },
+  "source": {
+    "git": "https://github.com/clotee@foxmail.com/WeexIosWeChat.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "WeexIosWeChat/Classes/**/*"
+}

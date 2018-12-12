@@ -1,0 +1,33 @@
+PODS:
+  - Kiwi (3.0.0)
+  - WechatOpenSDK (1.8.3)
+  - WeexIosWeChat (0.1.0)
+  - WeexSDK (0.18.0)
+
+DEPENDENCIES:
+  - Kiwi
+  - WechatOpenSDK (= 1.8.3)
+  - WeexIosWeChat (from `../`)
+  - WeexSDK (from `https://github.com/bmfe/WeexiOSSDK.git`, tag `0.18`)
+
+EXTERNAL SOURCES:
+  WeexIosWeChat:
+    :path: ../
+  WeexSDK:
+    :git: https://github.com/bmfe/WeexiOSSDK.git
+    :tag: 0.18
+
+CHECKOUT OPTIONS:
+  WeexSDK:
+    :git: https://github.com/bmfe/WeexiOSSDK.git
+    :tag: 0.18
+
+SPEC CHECKSUMS:
+  Kiwi: fbeafef0f00e4d8f7dcb3420a4930afe70af77f7
+  WechatOpenSDK: 3117412f8aafde4758cac1e8d20b93c67cafcfef
+  WeexIosWeChat: ca6bab8fc1f9a8006e5757fc16365f0ef137b626
+  WeexSDK: 0462c0174855d3eddb77743b9c3c1a2199fc4fc9
+
+PODFILE CHECKSUM: c3978ad438da65ac52de6a0899e5993a4fbd35f1
+
+COCOAPODS: 1.4.0
